@@ -1,0 +1,16 @@
+name: digital-skills-eu
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - ipykernel
+  - pip               # ← pip als Conda-Paket
+  - pip:
+      - eurostatapiclient     # ← wird via pip installiert
